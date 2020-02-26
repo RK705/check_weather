@@ -6,7 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 // git project https://github.com/erikflowers/weather-icons
 import "weather-icons/css/weather-icons.css";
-
+console.log(process.env)
 const Api_Key = process.env.API_KEY;
 
 class App extends React.Component {
